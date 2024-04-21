@@ -30,6 +30,8 @@ on:
 name: "Build & Release"
 jobs:
     build:
+      permissions:
+        contents: write
       name: Build & Release
       runs-on: macos-latest
       steps:
@@ -61,7 +63,7 @@ jobs:
           with:
             # artifacts: "build/app/outputs/flutter-apk/*"
             # tag: v1.0.${{ github.run_number }}
-            PAT: ${{secrets.TOKEN}} 
+            PAT: ${{secrets.GITHUB_TOKEN}} 
             aab_generation: true
             apk_generation: true
             ipa_generation: true
