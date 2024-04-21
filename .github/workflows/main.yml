@@ -67,4 +67,4 @@ jobs:
             gh_pages: true
             aab_generation: true
             apk_generation: true
-            ipa_generation: true
+            # ipa_generation: true
