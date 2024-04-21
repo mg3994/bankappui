@@ -41,9 +41,9 @@ jobs:
           #   java-version: '17.x'
             # you can change subosito/flutter-action@version as per your choice 
         - uses: subosito/flutter-action@v2
-        #   with:
+          with:
         # #   # you can change flutter-version: as per subosito/flutter-action@version as per your choice 
-        #     flutter-version: '1.17.0' #prefered with dart sdk 2.16.x
+            flutter-version: '3.0.0' #prefered with dart sdk 2.16.x
         #     channel: 'stable'
         # - run: flutter --version
         # - run: flutter doctor -v
