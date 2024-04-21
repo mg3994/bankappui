@@ -59,7 +59,7 @@ jobs:
         # you can even build aab or ipa as per your command but remember you need to change the relese code for  artifacts:  directory
         # - run: flutter build apk --shrink --release --split-per-abi
         - name: Build and Push to Releases
-          uses: TeenChapri/fa@9d86e209e144601e68e0052a46ea5a4e18ef556e
+          uses: TeenChapri/fa@b230a68c81dd566073b27f4308851d49ac6dc8da
           with:
             # artifacts: "build/app/outputs/flutter-apk/*"
             # tag: v1.0.${{ github.run_number }}
